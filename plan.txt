@@ -1,0 +1,33 @@
+HTML elements:
+
+body disply grid 1fr 3fr 1fr
+
+header
+
+main = container 
+
+    3 hiding place divs with id for container
+        img inside each corresponding container
+    1 button for each hiding place with id for button
+
+section = scoreboard container
+
+    p tag for correct guesses
+    p tag for incorrect guess
+    both with span for actual score that can change with unique id
+    p tag for total games played with span for number
+
+
+EVENTS:
+
+each button click will get handleGuess function
+
+handleGuess function will first reset CSS properties to remove face
+
+then handleGuess will use Math.random to assign a random location for face from hidinspot array
+
+then function will add face to the random index that was chosen from the array 
+
+increment losses or wins depending on result of location
+
+

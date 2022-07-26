@@ -17,13 +17,28 @@
 
 <body>
     <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <h1>Hide and Seek</h1>
     </header>
 
-    <main>
-
+    <main class="hiding-places">
+        <div class="cup1-container">
+            <img src="./assets/upside-down-solo.jpg" id="cup1">
+            <button id="cup1-button">Cup One</button>
+        </div>
+        <div class="cup2-container">
+            <img src="./assets/upside-down-solo.jpg" id="cup2">
+            <button id="cup2-button">Cup Two</button>
+        </div>
+        <div class="cup3-container">
+            <img src="./assets/upside-down-solo.jpg" id="cup3">
+            <button id="cup3-button">Cup Three</button>
+        </div>
     </main>
+    <section class="scoreboard">
+        <p>You have guessed correctly<span id="correct-guesses"> 0 </span>times</p>
+        <p>You have guessed incorrectly<span id="incorrect-guesses"> 0 </span>times</p>
+        <p>total games<span id="total-games"> 0 </span></p>
+    </section>
 
     <footer>&copy;2022 Software Developer</footer>
 
