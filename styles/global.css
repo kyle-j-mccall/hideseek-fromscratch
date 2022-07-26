@@ -31,6 +31,13 @@ main {
     justify-content: center;
 }
 
+#cup1-container, #cup2-container, #cup3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 img {
     height: 300px;
 }
@@ -43,10 +50,11 @@ button {
     text-align: center;
 }
 
-.ghost {
-    height: 300px;
-    background-image: url('./assets/ghost-emoji.png');
+#reset-button {
+    margin: 20px;
 }
+
+
 
 footer {
     position: sticky;
